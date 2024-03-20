@@ -1,4 +1,4 @@
-public class planetas extends astros {
+public class planetas extends Astro {
 
     float distanciaSol;
     boolean orbitaSol;

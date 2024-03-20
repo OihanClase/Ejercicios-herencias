@@ -4,16 +4,16 @@ public class main {
 
         
         
-        astros tierra = new planetas(1, 0, 0, 0, 0, 0, false, false);
-        astros jupiter = new planetas(0, 0, 0, 0, 0, 0, false, false);
-        astros marte = new planetas(0, 0, 0, 0, 0, 0, false, false);
+        Astro tierra = new planetas(1, 0, 0, 0, 0, 0, false, false);
+        Astro jupiter = new planetas(0, 0, 0, 0, 0, 0, false, false);
+        Astro marte = new planetas(0, 0, 0, 0, 0, 0, false, false);
 
-        astros satelite1 = new satelites(0, 0, 0, 0, 0, 0, 0, null);
-        astros satelite2 = new satelites(0, 0, 0, 0, 0, 0, 0, null);
-        astros satelite3 = new satelites(0, 0, 0, 0, 0, 0, 0, null);
+        Astro satelite1 = new satelites(0, 0, 0, 0, 0, 0, 0, null);
+        Astro satelite2 = new satelites(0, 0, 0, 0, 0, 0, 0, null);
+        Astro satelite3 = new satelites(0, 0, 0, 0, 0, 0, 0, null);
 
 
-        astros[] arrayAstros = {tierra, jupiter, marte, satelite1, satelite2, satelite3};
+        Astro[] arrayAstros = {tierra, jupiter, marte, satelite1, satelite2, satelite3};
 
         System.out.println(tierra.muestra());
 
@@ -23,7 +23,7 @@ public class main {
 
     }
 
-    public static void muestraTodos(astros arrayAstros[]) {
+    public static void muestraTodos(Astro arrayAstros[]) {
         
         for (int i = 0; i < arrayAstros.length; i++) {
 

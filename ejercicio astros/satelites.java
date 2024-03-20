@@ -1,4 +1,4 @@
-public class satelites extends astros {
+public class satelites extends Astro {
 
 
     float distanciaPlaneta;

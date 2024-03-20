@@ -1,4 +1,4 @@
-public abstract class astros {
+public abstract class Astro {
 
     double radioEcuatorial;
     double rotacionSobreEje;
@@ -7,7 +7,7 @@ public abstract class astros {
     double gravedad;
 
 
-    public astros(double radioEcuatorial, double rotacionSobreEje, double masa, double tempMedia, double gravedad) {
+    public Astro(double radioEcuatorial, double rotacionSobreEje, double masa, double tempMedia, double gravedad) {
         this.radioEcuatorial = radioEcuatorial;
         this.rotacionSobreEje = rotacionSobreEje;
         this.masa = masa;
@@ -68,7 +68,7 @@ public abstract class astros {
 
     @Override
     public String toString() {
-        return "astros [radioEcuatorial=" + radioEcuatorial + ", rotacionSobreEje=" + rotacionSobreEje + ", masa="
+        return "Astro [radioEcuatorial=" + radioEcuatorial + ", rotacionSobreEje=" + rotacionSobreEje + ", masa="
                 + masa + ", tempMedia=" + tempMedia + ", gravedad=" + gravedad + "]";
     }
 
